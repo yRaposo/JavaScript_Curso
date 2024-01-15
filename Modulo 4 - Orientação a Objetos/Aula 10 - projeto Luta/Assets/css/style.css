@@ -1,0 +1,91 @@
+.Titulo{
+    display: flex;
+    justify-content: center;
+
+    background: #202020;
+    color: #fff;
+
+    border: 0px;
+
+    font-family: Brush king;
+}
+
+.Arena{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Char{
+    width: 50%;
+    display: flex;
+}
+
+.CharStats{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#Monster{
+    flex-direction: row-reverse;
+    
+}
+
+#Monster .CharStats{
+    align-items: flex-end;
+}
+
+.lifebar{
+    height: 350px;
+    width: 50px;
+
+    border: 1px solid green;
+    background: red;
+    border-radius: 0px;
+}
+
+.lifebar .bar{
+    width: inherit;
+    height: 1%;
+    background: green;
+}
+
+.Log{
+    margin-top: 10px;
+
+    border: 1px solid #999;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.Ataques{
+    display: flex;
+    align-items: flex-end;
+}
+
+.Ataques button{
+    width: 100px;
+    height: 50px;
+    
+
+    font-family: Franklin Gothic Medium;
+    font-weight: 900;
+    font-size: larger;
+
+    background: #fff;
+    border: 1px solid #999;
+    color: #202020;
+    transition: 100ms;
+}
+
+.Ataques button:hover{
+    background: #202020;
+    border: 1px solid #202020;
+    color: #999;
+    transition: 100ms;
+}
