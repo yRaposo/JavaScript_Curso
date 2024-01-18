@@ -1,0 +1,7 @@
+Respostas de Informação ( 100 - 199 )
+Respostas de Sucesso ( 200 - 299 )
+Redirecionamentos ( 300 - 399 )
+Erros do Cliente ( 400 - 499 )
+Erros do Servidor ( 500 - 599 )
+
+Mais detalhes: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status

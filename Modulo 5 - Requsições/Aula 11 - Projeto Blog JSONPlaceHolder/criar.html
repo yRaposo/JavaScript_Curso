@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="nav">
+            <h1>
+                <a href="index.html">Post</a>
+                <a href="criar.html">Criar</a>
+            </h1>
+        </div>
+    </header>
+
+    <main class="criar">
+            <h1>Criar Post</h1>
+
+        <form>
+            <input id="userField" type="number" min="1" max="10" value="1">
+
+            <input id="titleField" type="text" placeholder="Titulo do Post">
+
+            <textarea id="bodyField"></textarea>
+
+            <div class="button">
+                <button class="clear">Limpar</button>
+                <button class="save">Salvar</button>
+            </div>       
+        </form>
+    </main>
+
+    <div class="NewPost">
+
+    </div>
+
+    <script src="./Assets/js/user.js"></script>
+    <script src="./Assets/js/script.js"></script>
+</body>
+</html>
