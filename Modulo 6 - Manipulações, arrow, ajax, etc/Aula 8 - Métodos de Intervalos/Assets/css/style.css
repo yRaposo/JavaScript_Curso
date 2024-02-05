@@ -1,0 +1,62 @@
+body {
+    border-radius: 10px;
+    background: #000;
+}
+
+#Hora {
+    background: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    border-radius: 10px;
+}
+
+#Min {
+    background: #1b1b1b;
+    height: 50%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Seg {
+    background: #1b1b1b;
+    height: 50%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#time,
+.button,
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+button {
+    border: 0;
+    background: #00000000;
+}
+
+button:hover {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 70%);
+}
